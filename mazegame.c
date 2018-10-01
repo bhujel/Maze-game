@@ -160,6 +160,7 @@ if ( x >= 0 && x <= r && y >= 0 && y <= c ){
    return 0 ;
   }
 }
+//implement using queue
 int q_implement( struct queue *q ,char b[100][100] ,char b1[100][100] ,int r ,int c ){
 while( 1 ){
   if((q->f->x)-1 >= 0 ) {
